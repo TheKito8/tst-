@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Declarando variaveis*/
+:root {
+    --cor-de-texto01: #00FFFF;
+    --cor-de-fundo: #B0C4DE;
+    --cor-de-fundo02: #778899;
+    --cor-de-texto02: #483D8B;
+}
+
+#geral {
+
+    width: 1500px;
+    margin: 20px auto;
+}
+
+/*Formatando o cabeçalho*/
+header {
+    width: 100%;
+    height: 390px;
+
+}
+
+nav#menu-links {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+/*Formatando o cabeçalho*/
+#cabecalho {
+    background-color: var(--cor-de-fundo);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#secoes,
+#subsecoes {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-de-fundo02);
+}
+/*Formatando elementos do cabeçalho*/
+ #input-pedquisa,#menu-acesso,#carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+width: 15%;
+
+}
+
+#titulo01{
+    font-size: 2em;
+text-transform: uppercase;
+color: black;
+margin: 10px 0px;
+}
+
+#titulo02{
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 25px;
+    padding: 10px 0px;
+}
+
+/*Formatando links e button*/
+
+.menu-link li {
+    display: inline;
+    padding: 8px;
+
+}
+
+.menu-link li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+
+}
+
+.menu-link li a:hover,
+.button:hover {
+    color: black;
+    font-weight: 900;
+}
+
+.button {
+    background: none;
+    border: none;
+    width: 100px;
+    margin: 8px;
+    color: black;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.todos{
+    background-color: white;
+    padding: 8px;
+}
+
+/*formatando o conteudo da pagina*/
+#conteudo{
+    width: 100%;
+    min-height: 700px;
+}
+
+/*FORMATANDO O RODAPE*/
+footer{
+    width: 100%;
+    min-height: 390px;
+
+}
+#rodape{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.caixa-rodape{
+    width: 25%;
+    margin: 30px 0px;
+}
+
+.caixa-rodape ul li{
+  margin: 25px 20px;  
+
+}
+#copyright{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+}
